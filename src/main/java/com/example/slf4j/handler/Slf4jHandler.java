@@ -11,8 +11,8 @@ public class Slf4jHandler {
     private Logger logger = LoggerFactory.getLogger(Slf4jHandler.class);
 
     public void start() {
-        logger.info("测试了");
-        logger.error("报错了");
-        logger.debug("调试了");
+        logger.info("测试");
+        logger.error("报错");
+        logger.debug("调试");
     }
 }
